@@ -2410,14 +2410,13 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding:  1.25em;
 		}
 
 		table th {
-			font-size: 0.9em;
+			font-size: 1.1em;
 			font-weight: 900;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
@@ -3341,7 +3340,9 @@
 		max-width: 68em;
 		margin: 0 auto;
 		padding: 0 2.5em;
+		text-align:center;
 	}
+
 
 		@media screen and (max-width: 736px) {
 
