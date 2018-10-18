@@ -2808,12 +2808,12 @@
 			
 			.tiles article > a h2 {
 					margin: 0;
-					letter-spacing: 1em;
+					letter-spacing: 0em;
 				}
 			
 				.tiles article {
-					width: calc(25% - 1.25em);
-					margin: 2.5em 0 0 2.5em;
+					width: calc(30% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
 				}
 
 		}
@@ -2855,8 +2855,8 @@
 				}
 			
 			.tiles article {
-					width: calc(33% - 0.25em);
-					margin: 2em 0.25em 0 0;
+					width: calc(30% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
 				}
 
 		}
