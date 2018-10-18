@@ -2836,12 +2836,21 @@
 		@media screen and (max-width: 480px) {
 
 			.tiles {
-				margin: 0;
-			}
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		postiion: relative;
+		margin: -2.5em 0 0 -2.5em;
+	}
 
 				.tiles article {
 					width: calc(40% - 1.25em);
-					margin: 1.25em 1.2em 0 0;
+					margin: 5em 1.2em 0 0;
 				}
 
 		}
