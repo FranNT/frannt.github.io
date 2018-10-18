@@ -2820,8 +2820,8 @@
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: calc(50% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
 				}
 
 					.tiles article:hover > .image {
@@ -2840,8 +2840,8 @@
 			}
 
 				.tiles article {
-					width: 100%;
-					margin: 1.25em 0 0 0;
+					width: calc(50% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
 				}
 
 		}
