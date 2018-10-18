@@ -2838,7 +2838,13 @@
 			.tiles {
 				margin: 0;
 			}
-				.tiles article {
+			
+			.tiles article > a h2 {
+					margin: 0;
+					letter-spacing: 0px;
+				}
+			
+			.tiles article {
 					width: calc(33% - 0.25em);
 					margin: 2em 0.25em 0 0;
 				}
