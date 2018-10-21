@@ -55,6 +55,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		
 	}
 
 /* Containers */
@@ -189,6 +190,7 @@
 		display: block;
 		clear: both;
 		height: 0;
+
 	}
 
 	.row.uniform > * > :first-child {
@@ -1303,6 +1305,7 @@
 
 		.box .content {
 			padding: 3rem;
+			background-color:#b4ffb0;
 		}
 
 		.box > :last-child,
